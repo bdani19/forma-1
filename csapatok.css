@@ -1,27 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:wght@300;500;800&display=swap');
 
 body {
-    background-color: black;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Funnel Sans', sans-serif;
+    background: linear-gradient(#456882, #234C6A, #1B3C53, #0a0f1e);
+    color: #1B3C53;
+    margin: 0;
 }
 
-h1 {
-    color: white;
+header {
     text-align: center;
-    width: auto;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 25px;
+    background-color: #311edf;
+    color: #fff;       
+    border-bottom: 4px solid #D2C1B6; 
+    padding: 4rem;
+    font-size: 1.5rem;
+}
+
+#keszitok {
+    color: #D2C1B6;
+    font-size: 1.2rem;
+}
+
+nav {
+    text-align: center;
+    background-color: #234C6A;
+    padding: 1.25rem;
+    border-bottom: 4px solid #D2C1B6;
+}   
+
+.navmenu a {
+    color: #D2C1B6;
+    text-decoration: none;
+    margin: 0 2rem;
+    padding: 0.6rem;
+    font-size: 1.5rem;
+}
+
+.navmenu a:hover {
+    border-bottom: 3px solid #456882;
+    background-color: #1f4068;
+    color: #fff;
+    border-radius: 5px;
+}
+
+section {
+    background-color: #fff; 
+    padding: 28px;
+    margin: 32px auto;
+    width: 80%;
+    max-width: 1400px;
+    border-radius: 11px;
+}
+
+h2 {
+    text-align: left;
+    color: #ffffff;
+    border-bottom: 2px solid #D2C1B6;
+    padding-bottom: 7px;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bekezd {
+    text-indent: 1rem;
 }
 
 p {
-    color: white;
-    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.balrakep, .jobbrakep, .kozepre {
+    width: 40%;
+    min-width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.balrakep { 
+    float: left; 
+    margin-right: 20px; 
+}
+
+.jobbrakep { 
+    float: right; 
+    margin-left: 20px; 
+}
+
+.kozepre {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin: 1.5em;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #234C6A;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #234C6A;
+    padding: 10px;
+}
+
+th {
+    background-color: #D2C1B6;
+    color: #1B3C53;
+}
+
+#lablec {
+    background-color: #1B3C53;
+    border-top: 4px solid #D2C1B6;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-kep {
+    width: 9%;
+    border-radius: 1rem;
 }
