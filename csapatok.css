@@ -9,7 +9,7 @@ body {
 
 header {
     text-align: center;
-    background-color: #df1e1e;
+    background-color: #311edf;
     color: #fff;       
     border-bottom: 4px solid #D2C1B6; 
     padding: 4rem;
@@ -53,12 +53,13 @@ section {
 }
 
 h2 {
-    text-align: center;
-    color: #234C6A;
+    text-align: left;
+    color: #ffffff;
     border-bottom: 2px solid #D2C1B6;
     padding-bottom: 7px;
     font-size: 2rem;
-    margin-top: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .bekezd {
