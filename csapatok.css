@@ -16,11 +16,6 @@ header {
     font-size: 1.5rem;
 }
 
-#keszitok {
-    color: #D2C1B6;
-    font-size: 1.2rem;
-}
-
 nav {
     text-align: center;
     background-color: #234C6A;
@@ -43,85 +38,27 @@ nav {
     border-radius: 5px;
 }
 
-section {
-    background-color: #fff; 
-    padding: 28px;
-    margin: 32px auto;
-    width: 80%;
-    max-width: 1400px;
-    border-radius: 11px;
-}
-
 h2 {
     text-align: left;
     color: #ffffff;
-    border-bottom: 2px solid #D2C1B6;
-    padding-bottom: 7px;
     font-size: 2rem;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.bekezd {
-    text-indent: 1rem;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 p {
-    line-height: 1.8;
-    margin-bottom: 15px;
-    font-size: 1.2rem;
-}
-
-.balrakep, .jobbrakep, .kozepre {
-    width: 40%;
-    min-width: 300px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.balrakep { 
-    float: left; 
-    margin-right: 20px; 
-}
-
-.jobbrakep { 
-    float: right; 
-    margin-left: 20px; 
-}
-
-.kozepre {
-    display: block;
+    color: white;
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
+    margin: 1.5em;
 }
 
-table {
-    width: 100%;
-    border: 1px solid #234C6A;
-    margin-top: 20px;
-}
-
-th, td {
-    border: 1px solid #234C6A;
-    padding: 10px;
-}
-
-th {
-    background-color: #D2C1B6;
-    color: #1B3C53;
-}
-
-#lablec {
-    background-color: #1B3C53;
-    border-top: 4px solid #D2C1B6;
-    padding: 30px;
-    margin-top: 50px;
-    text-align: center;
-}
-
-.footer-kep {
-    width: 9%;
-    border-radius: 1rem;
+img {
+    position: absolute;
+    right: 70em;
+    max-width: 20em;
+    border-radius: 1em;
 }
