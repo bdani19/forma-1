@@ -42,7 +42,7 @@ nav {
     color: #fff; 
     text-decoration: none;
     margin: 0 2rem;
-    padding: 0.6rem;
+    padding: 1rem;
     font-size: 1.3rem;
     font-weight: 500;
     transition: 0.3s;
@@ -102,6 +102,32 @@ th {
     font-size: 0.9rem;
 }
 
+.balra, .jobbra, .kozepre {
+    width: 40%;
+    min-width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.balra { 
+    float: left; 
+    margin-right: 20px; 
+}
+
+.jobbra { 
+    float: right; 
+    margin-left: 20px; 
+}
+
+.kozepre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 footer {
     background-color: #000; 
     color: #ffffff;
@@ -134,3 +160,4 @@ footer a:hover {
     color: #666; 
     margin-top: 10px;
 }
+
