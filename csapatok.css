@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Funnel Sans', sans-serif;
-    background: linear-gradient(#000000, #42576a, #830404,#1f008f, #b46204, #036e09);
+    background: linear-gradient(#353535, #262626);
     color: #1B3C53;
     margin: 0;
 }
@@ -82,7 +82,7 @@ img {
 #ferrariimg {
     float: right;
     max-width: 4em;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 #redbullimg {
@@ -90,4 +90,28 @@ img {
     max-width: 8em;
     margin-right: 20px;
 
+}
+
+#audiimg {
+    float: right;
+    max-width: 6em;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#alpineimg {
+    float: right;
+    max-width: 8em;
+    margin-right: 22px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#mclarenimg {
+    float: right;
+    max-width: 11em;
+    margin-right: 22px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
