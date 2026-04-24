@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:wght@300;500;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-
 body {
     font-family: 'Funnel Sans', sans-serif;
-    
-    color: #1B3C53;
+    color: #fff;
     margin: 0;
+    background-color: #404040; 
 }
 
 header {
@@ -16,13 +15,12 @@ header {
     background-position: center;  
     background-repeat: no-repeat; 
     color: #fff;       
-    border-bottom: 4px solid #D2C1B6; 
+    border-bottom: 4px solid #E10600; 
     padding: 8rem 2rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: overlay;
     font-family: "Orbitron", sans-serif;
 }
-
 
 header h1 {
     font-size: 5rem;      
@@ -30,116 +28,109 @@ header h1 {
     text-transform: uppercase; 
     letter-spacing: 5px;    
     margin-bottom: 1rem;    
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.8); 
-}
-
-
-.keszitok {
-    font-size: 1.2rem;
-    font-weight: 400;
-    font-weight: bold;
 }
 
 nav {
+    border-bottom: 4px solid #E10600; 
     text-align: center;
     background-color: #000;
     padding: 1.25rem;
-    border-bottom: 4px solid #D2C1B6;
 }   
 
 .navmenu a {
-    color: #D2C1B6;
+    display: inline-block; 
+    color: #fff; 
     text-decoration: none;
     margin: 0 2rem;
     padding: 0.6rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
 .navmenu a:hover {
+    color: #E10600;
     border-bottom: 3px solid #E10600;
-    background-color: #A60505;
-    color: #fff;
-    border-radius: 5px;
+    transform: translateY(-5px); 
 }
 
 section {
-    background-color: #fff; 
-    padding: 28px;
-    margin: 32px auto;
-    width: 80%;
-    max-width: 1400px;
-    border-radius: 11px;
+    background-color: #15151e; 
+    padding: 40px;
+    margin: 40px auto;
+    width: 85%;
+    max-width: 1200px;
+    border-radius: 15px;
+    border-left: 5px solid #E10600; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 h2 {
-    text-align: center;
-    color: #234C6A;
-    border-bottom: 2px solid #D2C1B6;
-    padding-bottom: 7px;
-    font-size: 2rem;
+    text-align: left;
+    color: #E10600; 
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    font-size: 2.2rem;
     margin-top: 0;
-}
-
-.bekezd {
-    text-indent: 1rem;
+    font-family: "Orbitron", sans-serif;
 }
 
 p {
     line-height: 1.8;
     margin-bottom: 15px;
-    font-size: 1.2rem;
-}
-
-.balrakep, .jobbrakep, .kozepre {
-    width: 40%;
-    min-width: 300px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.balrakep { 
-    float: left; 
-    margin-right: 20px; 
-}
-
-.jobbrakep { 
-    float: right; 
-    margin-left: 20px; 
-}
-
-.kozepre {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1.1rem;
+    color: #fff;
 }
 
 table {
     width: 100%;
-    border: 1px solid #234C6A;
+    border-collapse: collapse;
     margin-top: 20px;
+    background-color: #000;
 }
 
 th, td {
-    border: 1px solid #234C6A;
-    padding: 10px;
+    border: 1px solid #333;
+    padding: 15px;
+    text-align: left;
 }
 
 th {
-    background-color: #D2C1B6;
-    color: #1B3C53;
+    background-color: #E10600; 
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
 }
 
-#lablec {
-    background-color: #1B3C53;
-    border-top: 4px solid #D2C1B6;
-    padding: 30px;
-    margin-top: 50px;
+footer {
+    background-color: #000; 
+    color: #ffffff;
+    padding: 40px 20px;
     text-align: center;
+    border-top: 4px solid #E10600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
-.footer-kep {
-    width: 9%;
-    border-radius: 1rem;
+footer a {
+    color: #E10600;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px solid #E10600;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    background-color: #E10600;
+    color: #fff;
+}
+
+.keszitok {
+    font-size: 0.85rem;
+    color: #666; 
+    margin-top: 10px;
 }
