@@ -5,78 +5,15 @@ body {
     font-family: 'Funnel Sans', sans-serif;
     color: #fff;
     margin: 0;
-    background-color: #404040; 
+    background-color: #404040;
 }
 
-header {
-    text-align: center;
-    background-image: url(./IMG/header.jpeg);
-    background-size: cover;      
-    background-position: center;  
-    background-repeat: no-repeat; 
-    color: #fff;       
-    border-bottom: 4px solid #E10600; 
-    padding: 8rem 2rem;
-    background-color: rgba(0, 0, 0, 0.6);
-    background-blend-mode: overlay;
-    font-family: "Orbitron", sans-serif;
-}
-
-header h1 {
-    font-size: 5rem;      
-    font-weight: 900;       
-    text-transform: uppercase; 
-    letter-spacing: 5px;    
-    margin-bottom: 1rem;    
-}
-
-nav {
-    border-bottom: 4px solid #E10600; 
-    text-align: center;
-    background-color: #000;
-    padding: 1.25rem;
-}   
-
-.navmenu a {
-    display: inline-block; 
-    color: #fff; 
-    text-decoration: none;
-    margin: 0 2rem;
-    padding: 1rem;
-    font-size: 1.3rem;
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-.navmenu a:hover {
-    color: #E10600;
-    border-bottom: 3px solid #E10600;
-    transform: translateY(-5px); 
-}
-
-section {
-    background-color: #15151e; 
-    padding: 2.5rem;
-    width: 100%; 
-    max-width: 1100px;
-    border-radius: 15px;
-    border-left: 5px solid #E10600; 
-    transition: transform 0.3s ease;
-    margin: 2rem auto;
-}
-
-section:hover {
-    transform: translateX(10px); 
-}
-
-h2 {
-    text-align: left;
-    color: #E10600; 
-    border-bottom: 1px solid #333;
-    padding-bottom: 10px;
-    font-size: 2.2rem;
-    margin-top: 0;
-    font-family: "Orbitron", sans-serif;
+main {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-x: hidden;
 }
 
 p {
@@ -86,26 +23,258 @@ p {
     color: #fff;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    background-color: #000;
-}
-
-th, td {
-    border: 1px solid #333;
-    padding: 15px;
-    text-align: left;
-}
-
-th {
-    background-color: #E10600; 
-    color: #fff;
+h2 {
+    font-family: "Orbitron", sans-serif;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 800;
 }
 
+header {
+    text-align: center;
+    background-image: url(./IMG/header.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-bottom: 4px solid #E10600;
+    padding: 8rem 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    font-family: "Orbitron", sans-serif;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+}
+
+/* nav m */
+nav {
+    background-color: #000;
+    border-bottom: 3px solid #E10600;
+    padding: 20px 0;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.navmenu a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.5px;
+    padding: 8px 0;
+    transition: 0.3s ease;
+    border-bottom: 4px solid transparent;
+}
+
+.navmenu a:hover {
+    color: #fff;
+    border-bottom: 4px solid #E10600;
+    box-shadow: 0 8px 15px -5px rgba(225, 6, 0, 0.6);
+}
+
+.resz {
+    background: linear-gradient(145deg, #1e1e1e, #141414);
+    padding: 30px;
+    height: 100%;
+    border-radius: 12px;
+    border: 1px solid #333;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resz:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border-color: #E10600;
+}
+
+.resz-cím {
+    font-family: 'Orbitron', sans-serif;
+    color: #E10600;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.kiemelt-resz {
+    border-left: 5px solid #E10600;
+}
+
+/* bajnok-resz */
+.bajnok-resz {
+    background: linear-gradient(135deg, #FF8000 0%, #FF4500 100%);
+    display: flex;
+    align-items: center;
+}
+
+.bajnok-adatok {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.bajnok-adatok .resz-cím {
+    color: #fff;
+}
+
+.rajtszám {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1;
+    opacity: 0.3;
+    margin-bottom: 10px;
+}
+
+.pilóta-név {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bajnok-háttér-kép {
+    position: absolute;
+    right: -20px;
+    bottom: -10px;
+    width: 65%;
+    z-index: 1;
+    opacity: 0.7;
+    transition: 0.4s ease;
+}
+
+.bajnok-resz:hover .bajnok-háttér-kép {
+    opacity: 1;
+    transform: scale(1.05) rotate(-2deg);
+}
+
+.bajnok-háttér-kép img {
+    width: 100%;
+}
+
+/* listak */
+.esemény-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.esemény-lista li {
+    padding: 12px 0;
+    border-bottom: 1px solid #333;
+    font-size: 1.1rem;
+}
+
+.ikon {
+    margin-right: 15px;
+    display: inline-block;
+    width: 25px;
+}
+
+.keret {
+    border-radius: 8px;
+    border: 1px solid #ff0000;
+    padding: 5px;
+    background-color: #111;
+}
+
+.tortenete-kep {
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+/* rekordok*/
+.rekord-elem {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid #ff0000;
+    background: rgba(255, 0, 0, 0);
+    border-radius: 0 8px 8px 0;
+    transition: background 0.3s ease;
+}
+
+.rekord-elem:hover {
+    background: rgba(255, 0, 0, 0.03);
+}
+
+.rekord-elem p {
+    margin-bottom: 0;
+    color: #d3d3d3;
+}
+
+/* gyakori kerd.*/
+.gyk {
+    margin-bottom: 20px;
+}
+
+.kerdes {
+    font-weight: bold;
+    color: #ff0000;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.kerdes::before {
+    margin-right: 8px;
+    opacity: 0.5;
+}
+
+.valasz {
+    color: #dad9d9;
+    font-size: 1.1rem;
+    padding-left: 35px;
+    line-height: 1.4;
+}
+
+/* zaszlo */
+.zaszlo-lista {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.zaszlo-lista li {
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.zaszlo-lista li:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.zaszlo-lista .badge {
+    min-width: 80px;
+    padding: 8px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* képek */
 .balra, .jobbra, .kozepre {
     width: 40%;
     min-width: 300px;
@@ -115,14 +284,14 @@ th {
     margin-bottom: 20px;
 }
 
-.balra { 
-    float: left; 
-    margin-right: 20px; 
+.balra {
+    float: left;
+    margin-right: 20px;
 }
 
-.jobbra { 
-    float: right; 
-    margin-left: 20px; 
+.jobbra {
+    float: right;
+    margin-left: 20px;
 }
 
 .kozepre {
@@ -132,8 +301,9 @@ th {
 }
 
 
+/* footer */
 footer {
-    background-color: #000; 
+    background-color: #000;
     color: #ffffff;
     padding: 40px 20px;
     text-align: center;
@@ -161,7 +331,6 @@ footer a:hover {
 
 .keszitok {
     font-size: 0.85rem;
-    color: #666; 
+    color: #666;
     margin-top: 10px;
 }
-
