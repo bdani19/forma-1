@@ -1,4 +1,3 @@
-/* Alapbeállítások */
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
@@ -8,7 +7,6 @@ body {
     padding: 20px;
 }
 
-/* A kártya fő konténere */
 .palya-kartya {
     display: flex;
     background-color: #ffffff;
@@ -18,10 +16,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     overflow: hidden;
-    border-left: 6px solid #e10600; /* F1 piros szegély bal oldalon */
+    border-left: 6px solid #e10600; 
 }
-
-/* Bal oldali képes rész */
 .palya-kep-doboz {
     flex: 1;
     padding: 20px;
@@ -42,7 +38,6 @@ body {
     transform: scale(1.05);
 }
 
-/* Jobb oldali adatos rész */
 .palya-adatok {
     flex: 1;
     padding: 30px;
